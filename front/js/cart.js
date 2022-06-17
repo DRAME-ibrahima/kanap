@@ -3,7 +3,7 @@ const apiURL = 'http://localhost:3000/api/products'
 var shoppingCart = []
 var products = {} // { 'id': product }
 var totalQuantity = 0
-var totalPrice = 0
+var totalPrice;
 
 document.addEventListener('DOMContentLoaded', async () => {
   if (!location.href.includes('cart.html')) {
