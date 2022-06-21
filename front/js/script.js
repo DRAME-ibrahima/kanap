@@ -1,6 +1,6 @@
 const apiURL = 'http://localhost:3000/api/products'
 
-var products = {} // { 'id': product }
+var products = {} 
 
 document.addEventListener('DOMContentLoaded', async () => {
   const items = document.getElementById('items')
